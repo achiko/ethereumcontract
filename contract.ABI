@@ -1,0 +1,115 @@
+[{
+	"constant": false,
+	"inputs": [{
+		"name": "name",
+		"type": "string"
+	}, {
+		"name": "age",
+		"type": "int256"
+	}, {
+		"name": "speciality",
+		"type": "string"
+	}, {
+		"name": "twitter",
+		"type": "string"
+	}, {
+		"name": "github",
+		"type": "string"
+	}, {
+		"name": "linkedin",
+		"type": "string"
+	}],
+	"name": "updateProfile",
+	"outputs": [{
+		"name": "res",
+		"type": "bool"
+	}],
+	"type": "function"
+}, {
+	"constant": false,
+	"inputs": [],
+	"name": "remove",
+	"outputs": [],
+	"type": "function"
+}, {
+	"constant": true,
+	"inputs": [{
+		"name": "",
+		"type": "address"
+	}],
+	"name": "profiles",
+	"outputs": [{
+		"name": "name",
+		"type": "string"
+	}, {
+		"name": "age",
+		"type": "int256"
+	}, {
+		"name": "speciality",
+		"type": "string"
+	}, {
+		"name": "twitter",
+		"type": "string"
+	}, {
+		"name": "github",
+		"type": "string"
+	}, {
+		"name": "linkedin",
+		"type": "string"
+	}],
+	"type": "function"
+}, {
+	"constant": false,
+	"inputs": [],
+	"name": "getProfile",
+	"outputs": [{
+		"name": "name",
+		"type": "string"
+	}, {
+		"name": "age",
+		"type": "int256"
+	}, {
+		"name": "speciality",
+		"type": "string"
+	}, {
+		"name": "twitter",
+		"type": "string"
+	}, {
+		"name": "github",
+		"type": "string"
+	}, {
+		"name": "linkedin",
+		"type": "string"
+	}],
+	"type": "function"
+}, {
+	"constant": false,
+	"inputs": [{
+		"name": "name",
+		"type": "string"
+	}, {
+		"name": "age",
+		"type": "int256"
+	}, {
+		"name": "speciality",
+		"type": "string"
+	}, {
+		"name": "twitter",
+		"type": "string"
+	}, {
+		"name": "github",
+		"type": "string"
+	}, {
+		"name": "linkedin",
+		"type": "string"
+	}],
+	"name": "createProfile",
+	"outputs": [{
+		"name": "res",
+		"type": "bool"
+	}],
+	"type": "function"
+}, {
+	"inputs": [],
+	"type": "constructor"
+}]
