@@ -39,10 +39,6 @@ contract ProfileBase {
         // 	return fals;
         // }
 
-        // getting error here 
-        /* Untitled2:32:12: Error: Operator != not compatible with types struct profile storage ref and int_const 0
-	        if(profiles[msg.sender] != 0) {*/
-
 	   	profile _profile = profiles[msg.sender];  
 
 		_profile.name = name;
@@ -56,15 +52,7 @@ contract ProfileBase {
 
 	}
 
-
 	//-- get profile 
-	function getProfile() returns(string name, int age, string speciality,  string twitter, string github, string linkedin) {
-		
-		profile data = profiles[msg.sender];  
-		return (data.name ,  data.age  , data.speciality, data.twitter,  data.github , data.linkedin);
-
-	} 
-
 
 	//-- Update profile 
 	function updateProfile(
